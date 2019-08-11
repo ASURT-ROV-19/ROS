@@ -1,0 +1,12 @@
+<launch>
+
+<node pkg="orca" name="Network" type="Network.py" output="screen" >
+</node>
+
+<node pkg="orca" name="Motion" type="Equation.py" output="screen" >
+</node>
+
+<node pkg="orca" name="Hat_Node" type="DummyHat.py" output="screen" >
+</node>
+
+</launch>
